@@ -1,11 +1,10 @@
--- SELECT command is used to retrieve data from one or more tables in a database.
-/* SYNTAX: 
-     SELECT col1,col2,... FROM table_name;  */
--- 1. Display all columns:
-SELECT * FROM students;
+-- SELECT is a DATA QUERY LANGUAGE command used to retrieve data from one or more tables in a database.
 
--- 2.Display specific columns
-SELECT nam,age FROM students;
+--Retrieve all customers data
+select * from customers
 
--- 3.Display data with a condition
-SELECT nam,marks FROM Students WHERE marks > 80;
+--select few columns: pick only the columns you need instead of all
+select first_name,country,score from customers
+
+--select using where clause- for filtering data based on a condition
+select score from customers where score!=0
