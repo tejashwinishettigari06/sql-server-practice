@@ -21,4 +21,4 @@ select top 2 * from customers order by score asc
 
 -- get two most recent orders
 select * from orders 
-select top 2 * from orders order by order_date desc
+select top 2 *  from orders order by order_date desc
